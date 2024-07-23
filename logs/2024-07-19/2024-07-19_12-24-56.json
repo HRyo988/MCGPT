@@ -1,0 +1,11 @@
+{
+    "system_prompt_file": "./prompts/system_prompt.txt",
+    "user_prompt_file": "./prompts/user_prompt.txt",
+    "video_names": [
+        "1.mp4",
+        "2.mp4",
+        "T13.mp4",
+        "T15.mp4"
+    ],
+    "result": "The shooting technique in both videos appears to be a form of aerial or tracking shot, commonly used in virtual environments to showcase wide landscapes or large structures, often executed using in-game tools or mods.\n\nFor the same cinematographed object (the village and the hot air balloon), the video shot from **<video a>** seems to be more aesthetically pleasing. This is because <video a> captures a broader view of the village with more visual elements, making the scene visually engaging with varied compositions and depth."
+}

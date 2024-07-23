@@ -1,0 +1,82 @@
+[
+    {
+        "video_name": "1.mp4",
+        "label": "5"
+    },
+    {
+        "video_name": "2.mp4",
+        "label": "1"
+    },
+    {
+        "video_name": "T11.mp4",
+        "label": "4.333333333"
+    },
+    {
+        "video_name": "T12.mp4",
+        "label": "5"
+    },
+    {
+        "video_name": "T13.mp4",
+        "label": "3.333333333"
+    },
+    {
+        "video_name": "T14.mp4",
+        "label": "3.333333333"
+    },
+    {
+        "video_name": "T15.mp4",
+        "label": "3"
+    },
+    {
+        "video_name": "T16.mp4",
+        "label": "1"
+    },
+    {
+        "video_name": "T21.mp4",
+        "label": "4.025641026"
+    },
+    {
+        "video_name": "T22.mp4",
+        "label": "4.525641026"
+    },
+    {
+        "video_name": "T23.mp4",
+        "label": "5"
+    },
+    {
+        "video_name": "T24.mp4",
+        "label": "3.717948718"
+    },
+    {
+        "video_name": "T25.mp4",
+        "label": "4.038461538"
+    },
+    {
+        "video_name": "T26.mp4",
+        "label": "1"
+    },
+    {
+        "video_name": "T31.mp4",
+        "label": "3.25"
+    },
+    {
+        "video_name": "T32.mp4",
+        "label": "4.5"
+    },
+    {
+        "video_name": "T33.mp4",
+        "label": "5"
+    },
+    {
+        "video_name": "T34.mp4",
+        "label": "1"
+    },
+    {
+        "video_name": "T35.mp4",
+        "label": "2.75"
+    },
+    {
+        "video_name": "T36.mp4",
+        "label": "3"
+    }
+]

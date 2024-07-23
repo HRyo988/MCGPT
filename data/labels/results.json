@@ -1,0 +1,31 @@
+{
+    "sets": {
+        "MS_MAP": 8,
+        "VLS_MAP": 4,
+        "MS_FLYTHROUGH": 1,
+        "CU_MAP": 3,
+        "VLS_MAT": 2,
+        "MS_SURVEY": 1,
+        "CU_PS": 2,
+        "VLS_FLYTHROUGH": 1
+    },
+    "distance": {
+        "MS": 10,
+        "VLS": 7,
+        "CU": 5
+    },
+    "moving": {
+        "MAP": 15,
+        "FLYTHROUGH": 2,
+        "MAT": 2,
+        "SURVEY": 1,
+        "PS": 2
+    },
+    "a": {
+        "A": 5
+    },
+    "b": {
+        "B": 14
+    },
+    "file1_data_count": 41
+}

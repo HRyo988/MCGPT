@@ -1,0 +1,11 @@
+{
+    "system_prompt_file": "./prompts/system_prompt.txt",
+    "user_prompt_file": "./prompts/user_prompt.txt",
+    "video_names": [
+        "1.mp4",
+        "2.mp4",
+        "T23.mp4",
+        "T25.mp4"
+    ],
+    "result": "Output: B\n\nVideo B offers a more comprehensive and aesthetically pleasing perspective of the same object—the ship—by providing a top-down aerial view. This perspective captures not only the ship but also the surrounding environment, giving a better context and sense of scale. The composition and viewpoint of Video B are generally more engaging, making it more visually appealing."
+}

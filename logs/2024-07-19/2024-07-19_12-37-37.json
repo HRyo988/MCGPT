@@ -1,0 +1,11 @@
+{
+    "system_prompt_file": "./prompts/system_prompt.txt",
+    "user_prompt_file": "./prompts/user_prompt.txt",
+    "video_names": [
+        "1.mp4",
+        "2.mp4",
+        "T31.mp4",
+        "T36.mp4"
+    ],
+    "result": "A"
+}

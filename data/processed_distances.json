@@ -1,0 +1,56 @@
+[
+    {
+        "map": 1,
+        "max": {
+            "video_name1": "T12.mp4",
+            "video_name2": "T16.mp4",
+            "distance": 4.0
+        },
+        "mid": {
+            "video_name1": "T12.mp4",
+            "video_name2": "T13.mp4",
+            "distance": 1.6666666669999999
+        },
+        "min": {
+            "video_name1": "T13.mp4",
+            "video_name2": "T15.mp4",
+            "distance": 0.3333333330000001
+        }
+    },
+    {
+        "map": 2,
+        "max": {
+            "video_name1": "T23.mp4",
+            "video_name2": "T26.mp4",
+            "distance": 4.0
+        },
+        "mid": {
+            "video_name1": "T23.mp4",
+            "video_name2": "T25.mp4",
+            "distance": 0.961538462
+        },
+        "min": {
+            "video_name1": "T21.mp4",
+            "video_name2": "T25.mp4",
+            "distance": 0.012820512000000228
+        }
+    },
+    {
+        "map": 3,
+        "max": {
+            "video_name1": "T33.mp4",
+            "video_name2": "T34.mp4",
+            "distance": 4.0
+        },
+        "mid": {
+            "video_name1": "T32.mp4",
+            "video_name2": "T35.mp4",
+            "distance": 1.75
+        },
+        "min": {
+            "video_name1": "T31.mp4",
+            "video_name2": "T36.mp4",
+            "distance": 0.25
+        }
+    }
+]

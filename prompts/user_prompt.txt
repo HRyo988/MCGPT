@@ -1,0 +1,1 @@
+Select a video shot from <video a> and <video b>, that is more aesthetically pleasing for the same cinematographed object. Output: {A|B}
