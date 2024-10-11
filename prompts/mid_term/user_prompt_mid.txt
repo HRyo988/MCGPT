@@ -1,0 +1,24 @@
+Analyze the 10 frames from each video and provide the best shooting parameters (`distance` and `moving`) for each. Include a general rule about which shooting methods are preferred for different types of buildings.
+
+1. **Distance**: Choose from Close-UP, Medium, or Very-far.
+2. **Moving**: Choose from Moving Aerial Pan shot, Moving Aerial Tilt shot, Pedestal/Elevator shot, Bird's Eye shot, Moving Bird's Eye shot, Survey shot, or Fly-Through shot.
+
+Respond in JSON format.
+
+```json
+{
+    "Rules": "<Generated rules: Explain what types of buildings are best paired with specific shooting methods.>",
+    "Shot details": {
+        "video name": "<video name1>",
+        "Preferred shot combination": {
+            "distance": "<selected distance>",
+            "moving": "<selected movement>"
+        },
+        "video name": "<video name2>",
+        "Preferred shot combination": {
+            "distance": "<selected distance>",
+            "moving": "<selected movement>"
+        }
+        ...
+    }
+}
