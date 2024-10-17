@@ -1,8 +1,17 @@
 Analyze the provided frames from each video to infer the building’s characteristics, such as height, complexity, and surroundings. Based on these characteristics, recommend the best combination of shooting parameters (`distance` and `moving`). Then, convert your recommendations into machine-readable "if-then" rules.
 
+1. **Building Characteristics**:
+   - **Height**: Tall, Medium, Short.
+   - **Complexity**: High (complex), Medium, Low (simple).
+   - **Surroundings**: Urban, Suburban, Natural.
+
+2. **Distance**: Choose from: Close-up, Medium, Very Far.
+
+3. **Movement**: Choose from: Moving Aerial Pan Shot, Moving Aerial Tilt Shot, Pedestal/Elevator Shot, Bird's-eye shot, Moving bird's-eye shot, Survey Shot, Fly-through shot.
+
 1. **Extract building features**: Identify height (tall, medium, short), complexity (complex, medium, simple), and surroundings (urban, suburban, natural).
-2. **Generate a natural language rule**: Example: "If the building is tall, complex, and in an urban setting, use a Moving Aerial Pan shot from a medium distance."
-3. **Convert to machine-readable format**: Automatically convert the rule into an "if-then" structure. Example: `If height = <Height> and complexity = <complexity> and surroundings = <surroundings>, then distance = <selected distance> and moving = <selected movement>.`
+2. **Generate a natural language rule**: Example: Natural Language Rule: "If the building is <1.Height>, <1.complexity>, and in <1.surroundings>, use <selected 3.movement> from <selected 2.distance>."
+3. **Convert to machine-readable format**: Automatically convert the rule into an "if-then" structure. Example: `If height = <1.Height> and complexity = <1.complexity> and surroundings = <1.surroundings>, then distance = <selected 2.Distance> and moving = <selected 3.Movement>.`
 4. **Optimize**: Ensure the rules are consistent, non-redundant, and cover all 27 combinations.
 
 Respond in the following format:
@@ -13,8 +22,8 @@ Respond in the following format:
     "Shot details of all videos": {
         "video name": "<referenced video name>",
         "Preferred shot combination": {
-            "distance": "<selected distance>",
-            "moving": "<selected movement>"
+            "distance": "<selected 2.Distance>",
+            "moving": "<selected 3.Movement>"
         }
     }
 }
