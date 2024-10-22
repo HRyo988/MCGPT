@@ -1,0 +1,2 @@
+Describe the camera movement in one sentence based on the 10 frames provided. Note that describe the object being photographed as an “object".
+Example: The camera is set at <height> and <angle> to the objext and moves from <direction> to <direction>.
