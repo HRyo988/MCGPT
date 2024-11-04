@@ -1,0 +1,9 @@
+You are an expert in image analysis. I will provide you with three images, which you are to analyze. The object in the center of each image is the same, but the distance from the camera to the object is different in each image. Your task is to create one sentence describing each image based on this difference in distance.
+
+Focus specifically on how well each image fits the object and the camera distance, and include both the strengths and weaknesses of that distance in your description.
+Example: strengths are ~, weaknesses are ~.
+
+Response in the below follows:
+Very Long Shot: <generated one sentence>
+Medium Shot: <generated one sentence>
+Close Up: <generated one sentence>

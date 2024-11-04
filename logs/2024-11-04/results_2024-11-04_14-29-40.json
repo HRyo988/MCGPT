@@ -1,0 +1,9 @@
+[
+    {
+        "model": "gpt-4o",
+        "Moving": "SURVEY",
+        "system_prompt": "You are an expert in image analysis. I will provide you with three images, which you are to analyze. The object in the center of each image is the same, but the distance from the camera to the object is different in each image. Your task is to create one sentence describing each image based on this difference in distance.\n\nFocus specifically on how well each image fits the object and the camera distance, and include both the strengths and weaknesses of that distance in your description.\nExample: strengths are ~, weaknesses are ~.\n\nResponse in the below follows:\nVery Long Shot: <generated one sentence>\nMedium Shot: <generated one sentence>\nClose Up: <generated one sentence>",
+        "user_prompt": "Based on the images provided, analyze the differences in distance and generate one sentence for each image describing only the fit of the object and the distance between the cameras.\nExample: strengths are ~, weaknesses are ~.\n\nResponse in the below follows:\nVery Long Shot: <generated one sentence>\nMedium Shot: <generated one sentence>\nClose Up: <generated one sentence>",
+        "output": "Very Long Shot: The object appears small with ample space around it, offering a strong sense of context and environment, however, the details of the object itself are not clearly visible due to the distance.\n\nMedium Shot: The object is centered and fills more of the frame, providing a good balance between highlighting the object and maintaining some background context, though it may not capture precise details as closely as desired.\n\nClose Up: The object is prominently featured and details are captured excellently, but this close distance limits any contextual background, focusing solely on fine features of the object."
+    }
+]

@@ -1,0 +1,7 @@
+Based on the images provided, analyze the differences in distance and generate one sentence for each image describing only the fit of the object and the distance between the cameras.
+Example: strengths are ~, weaknesses are ~.
+
+Response in the below follows:
+Very Long Shot: <generated one sentence>
+Medium Shot: <generated one sentence>
+Close Up: <generated one sentence>
