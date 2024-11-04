@@ -1,0 +1,9 @@
+[
+    {
+        "model": "gpt-4o",
+        "Moving": "FLYTHROUGH",
+        "system_prompt": "You are an expert in video analysis. Your task is to describe the camera movement in the frames provided. Focus only on the camera's motion, without referring to the scene or objects in the video. You must describe the movement and direction of the camera in one clear and concise sentence. Note that describe the object being photographed as an “object\".\nExample: The camera is set at <height> and <angle> to the object and moves from <direction> to <direction>.",
+        "user_prompt": "Describe the camera movement in one sentence based on the 10 frames provided. Note that describe the object being photographed as an “object\".\nExample: The camera is set at <height> and <angle> to the objext and moves from <direction> to <direction>.",
+        "output": "The camera is set at a straight-on angle to the object and moves from far to near, passing through it."
+    }
+]
