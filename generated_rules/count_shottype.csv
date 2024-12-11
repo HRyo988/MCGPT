@@ -1,0 +1,28 @@
+height, complexity, surroundings, distance, moving
+Medium, High, Natural, Very Long Shot, Pedestal/Elevator Shot
+Medium, High, Suburban, Medium Shot, Fly-through Shot
+Medium, High, Urban, Medium Shot, Moving Aerial Tilt Shot
+Medium, Low, Natural, Very Long Shot, Fly-through Shot
+Medium, Low, Suburban, Medium Shot, Bird's-eye Shot
+Medium, Low, Urban, Medium Shot, Moving Aerial Tilt Shot
+Medium, Medium, Natural, Very Long Shot, Survey Shot
+Medium, Medium, Suburban, Medium Shot, Fly-through Shot
+Medium, Medium, Urban, Medium Shot, Survey Shot
+Short, High, Natural, Medium Shot, Fly-through Shot
+Short, High, Suburban, Close-up, Moving Aerial Pan Shot
+Short, High, Urban, Close-up, Pedestal/Elevator Shot
+Short, Low, Natural, Medium Shot, Bird's-eye Shot
+Short, Low, Suburban, Close-up, Moving Aerial Pan Shot
+Short, Low, Urban, Close-up, Survey Shot
+Short, Medium, Natural, Medium Shot, Survey Shot
+Short, Medium, Suburban, Close-up, Pedestal/Elevator Shot
+Short, Medium, Urban, Close-up, Moving Aerial Pan Shot
+Tall, High, Natural, Very Long Shot, Bird's-eye Shot
+Tall, High, Suburban, Medium Shot, Moving Aerial Tilt Shot
+Tall, High, Urban, Medium Shot, Moving Aerial Pan Shot
+Tall, Low, Natural, Very Long Shot, Moving bird's-eye Shot
+Tall, Low, Suburban, Very Long Shot, Moving Aerial Pan Shot
+Tall, Low, Urban, Medium Shot, Survey Shot
+Tall, Medium, Natural, Very Long Shot, Moving bird's-eye Shot
+Tall, Medium, Suburban, Medium Shot, Moving Aerial Pan Shot
+Tall, Medium, Urban, Medium Shot, Pedestal/Elevator Shot

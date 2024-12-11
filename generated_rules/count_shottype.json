@@ -1,0 +1,936 @@
+{
+    "('Medium', ' High', ' Natural')": {
+        " distance": [
+            [
+                " Very Long Shot",
+                4
+            ],
+            [
+                " Medium Shot",
+                4
+            ],
+            [
+                " Close-up",
+                2
+            ]
+        ],
+        " moving": [
+            [
+                " Pedestal/Elevator Shot",
+                3
+            ],
+            [
+                " Bird's-eye Shot",
+                2
+            ],
+            [
+                " Fly-through Shot",
+                1
+            ],
+            [
+                " Moving Bird's-eye Shot",
+                1
+            ],
+            [
+                " Moving Aerial Tilt Shot",
+                1
+            ],
+            [
+                " Survey Shot",
+                1
+            ],
+            [
+                " Moving Aerial Pan Shot",
+                1
+            ]
+        ]
+    },
+    "('Medium', ' High', ' Suburban')": {
+        " distance": [
+            [
+                " Medium Shot",
+                5
+            ],
+            [
+                " Very Long Shot",
+                4
+            ],
+            [
+                " Close-up",
+                1
+            ]
+        ],
+        " moving": [
+            [
+                " Fly-through Shot",
+                4
+            ],
+            [
+                " Moving Aerial Pan Shot",
+                2
+            ],
+            [
+                " Moving Aerial Tilt Shot",
+                2
+            ],
+            [
+                " Bird's-eye Shot",
+                1
+            ],
+            [
+                " Pedestal/Elevator Shot",
+                1
+            ]
+        ]
+    },
+    "('Medium', ' High', ' Urban')": {
+        " distance": [
+            [
+                " Medium Shot",
+                10
+            ]
+        ],
+        " moving": [
+            [
+                " Moving Aerial Tilt Shot",
+                3
+            ],
+            [
+                " Survey Shot",
+                2
+            ],
+            [
+                " Bird's-eye Shot",
+                2
+            ],
+            [
+                " Moving bird's-eye Shot",
+                1
+            ],
+            [
+                " Moving Aerial Pan Shot",
+                1
+            ],
+            [
+                " Pedestal/Elevator Shot",
+                1
+            ]
+        ]
+    },
+    "('Medium', ' Low', ' Natural')": {
+        " distance": [
+            [
+                " Very Long Shot",
+                6
+            ],
+            [
+                " Medium Shot",
+                3
+            ],
+            [
+                " Close-up",
+                1
+            ]
+        ],
+        " moving": [
+            [
+                " Fly-through Shot",
+                3
+            ],
+            [
+                " Moving bird's-eye Shot",
+                2
+            ],
+            [
+                " Bird's-eye Shot",
+                2
+            ],
+            [
+                " Survey Shot",
+                2
+            ],
+            [
+                " Moving Aerial Tilt Shot",
+                1
+            ]
+        ]
+    },
+    "('Medium', ' Low', ' Suburban')": {
+        " distance": [
+            [
+                " Medium Shot",
+                5
+            ],
+            [
+                " Very Long Shot",
+                3
+            ],
+            [
+                " Close-up",
+                2
+            ]
+        ],
+        " moving": [
+            [
+                " Bird's-eye Shot",
+                3
+            ],
+            [
+                " Moving Aerial Pan Shot",
+                2
+            ],
+            [
+                " Survey Shot",
+                2
+            ],
+            [
+                " Moving Aerial Tilt Shot",
+                1
+            ],
+            [
+                " Pedestal/Elevator Shot",
+                1
+            ],
+            [
+                " Fly-through Shot",
+                1
+            ]
+        ]
+    },
+    "('Medium', ' Low', ' Urban')": {
+        " distance": [
+            [
+                " Medium Shot",
+                7
+            ],
+            [
+                " Close-up",
+                3
+            ]
+        ],
+        " moving": [
+            [
+                " Moving Aerial Tilt Shot",
+                4
+            ],
+            [
+                " Pedestal/Elevator Shot",
+                2
+            ],
+            [
+                " Moving Aerial Pan Shot",
+                1
+            ],
+            [
+                " Fly-through Shot",
+                1
+            ],
+            [
+                " Moving bird's-eye Shot",
+                1
+            ],
+            [
+                " Bird's-eye Shot",
+                1
+            ]
+        ]
+    },
+    "('Medium', ' Medium', ' Natural')": {
+        " distance": [
+            [
+                " Very Long Shot",
+                4
+            ],
+            [
+                " Medium Shot",
+                4
+            ],
+            [
+                " Close-up",
+                2
+            ]
+        ],
+        " moving": [
+            [
+                " Survey Shot",
+                4
+            ],
+            [
+                " Moving bird's-eye Shot",
+                2
+            ],
+            [
+                " Fly-through Shot",
+                2
+            ],
+            [
+                " Moving Bird's-eye Shot",
+                1
+            ],
+            [
+                " Moving Aerial Pan Shot",
+                1
+            ]
+        ]
+    },
+    "('Medium', ' Medium', ' Suburban')": {
+        " distance": [
+            [
+                " Medium Shot",
+                7
+            ],
+            [
+                " Very Long Shot",
+                3
+            ]
+        ],
+        " moving": [
+            [
+                " Fly-through Shot",
+                3
+            ],
+            [
+                " Moving Aerial Pan Shot",
+                2
+            ],
+            [
+                " Bird's-eye Shot",
+                2
+            ],
+            [
+                " Survey Shot",
+                1
+            ],
+            [
+                " Moving Aerial Tilt Shot",
+                1
+            ],
+            [
+                " Moving bird's-eye Shot",
+                1
+            ]
+        ]
+    },
+    "('Medium', ' Medium', ' Urban')": {
+        " distance": [
+            [
+                " Medium Shot",
+                8
+            ],
+            [
+                " Very Long Shot",
+                2
+            ]
+        ],
+        " moving": [
+            [
+                " Survey Shot",
+                4
+            ],
+            [
+                " Pedestal/Elevator Shot",
+                3
+            ],
+            [
+                " Moving Aerial Pan Shot",
+                2
+            ],
+            [
+                " Moving bird's-eye Shot",
+                1
+            ]
+        ]
+    },
+    "('Short', ' High', ' Natural')": {
+        " distance": [
+            [
+                " Medium Shot",
+                6
+            ],
+            [
+                " Close-up",
+                2
+            ],
+            [
+                " Very Long Shot",
+                2
+            ]
+        ],
+        " moving": [
+            [
+                " Fly-through Shot",
+                6
+            ],
+            [
+                " Moving Aerial Tilt Shot",
+                2
+            ],
+            [
+                " Moving bird's-eye Shot",
+                1
+            ],
+            [
+                " Pedestal/Elevator Shot",
+                1
+            ]
+        ]
+    },
+    "('Short', ' High', ' Suburban')": {
+        " distance": [
+            [
+                " Close-up",
+                6
+            ],
+            [
+                " Very Long Shot",
+                2
+            ],
+            [
+                " Medium Shot",
+                2
+            ]
+        ],
+        " moving": [
+            [
+                " Moving Aerial Pan Shot",
+                4
+            ],
+            [
+                " Moving Aerial Tilt Shot",
+                2
+            ],
+            [
+                " Survey Shot",
+                2
+            ],
+            [
+                " Pedestal/Elevator Shot",
+                1
+            ],
+            [
+                " Moving Bird's-eye Shot",
+                1
+            ]
+        ]
+    },
+    "('Short', ' High', ' Urban')": {
+        " distance": [
+            [
+                " Close-up",
+                8
+            ],
+            [
+                " Medium Shot",
+                2
+            ]
+        ],
+        " moving": [
+            [
+                " Pedestal/Elevator Shot",
+                5
+            ],
+            [
+                " Moving bird's-eye Shot",
+                2
+            ],
+            [
+                " Moving Aerial Pan Shot",
+                2
+            ],
+            [
+                " Moving Bird's-eye Shot",
+                1
+            ]
+        ]
+    },
+    "('Short', ' Low', ' Natural')": {
+        " distance": [
+            [
+                " Medium Shot",
+                7
+            ],
+            [
+                " Close-up",
+                3
+            ]
+        ],
+        " moving": [
+            [
+                " Bird's-eye Shot",
+                3
+            ],
+            [
+                " Pedestal/Elevator Shot",
+                3
+            ],
+            [
+                " Moving bird's-eye Shot",
+                2
+            ],
+            [
+                " Survey Shot",
+                1
+            ],
+            [
+                " Fly-through Shot",
+                1
+            ]
+        ]
+    },
+    "('Short', ' Low', ' Suburban')": {
+        " distance": [
+            [
+                " Close-up",
+                7
+            ],
+            [
+                " Very Long Shot",
+                2
+            ],
+            [
+                " Medium Shot",
+                1
+            ]
+        ],
+        " moving": [
+            [
+                " Moving Aerial Pan Shot",
+                3
+            ],
+            [
+                " Moving Aerial Tilt Shot",
+                2
+            ],
+            [
+                " Bird's-eye Shot",
+                2
+            ],
+            [
+                " Moving Bird's-eye Shot",
+                1
+            ],
+            [
+                " Fly-through Shot",
+                1
+            ],
+            [
+                " Survey Shot",
+                1
+            ]
+        ]
+    },
+    "('Short', ' Low', ' Urban')": {
+        " distance": [
+            [
+                " Close-up",
+                9
+            ],
+            [
+                " Very Long Shot",
+                1
+            ]
+        ],
+        " moving": [
+            [
+                " Survey Shot",
+                2
+            ],
+            [
+                " Bird's-eye Shot",
+                2
+            ],
+            [
+                " Moving Aerial Tilt Shot",
+                2
+            ],
+            [
+                " Fly-through Shot",
+                2
+            ],
+            [
+                " Moving Aerial Pan Shot",
+                2
+            ]
+        ]
+    },
+    "('Short', ' Medium', ' Natural')": {
+        " distance": [
+            [
+                " Medium Shot",
+                7
+            ],
+            [
+                " Very Long Shot",
+                2
+            ],
+            [
+                " Close-up",
+                1
+            ]
+        ],
+        " moving": [
+            [
+                " Survey Shot",
+                4
+            ],
+            [
+                " Moving bird's-eye Shot",
+                3
+            ],
+            [
+                " Fly-through Shot",
+                1
+            ],
+            [
+                " Bird's-eye Shot",
+                1
+            ],
+            [
+                " Moving Aerial Tilt Shot",
+                1
+            ]
+        ]
+    },
+    "('Short', ' Medium', ' Suburban')": {
+        " distance": [
+            [
+                " Close-up",
+                7
+            ],
+            [
+                " Medium Shot",
+                2
+            ],
+            [
+                " Very Long Shot",
+                1
+            ]
+        ],
+        " moving": [
+            [
+                " Pedestal/Elevator Shot",
+                4
+            ],
+            [
+                " Survey Shot",
+                3
+            ],
+            [
+                " Fly-through Shot",
+                1
+            ],
+            [
+                " Moving Aerial Pan Shot",
+                1
+            ],
+            [
+                " Moving Aerial Tilt Shot",
+                1
+            ]
+        ]
+    },
+    "('Short', ' Medium', ' Urban')": {
+        " distance": [
+            [
+                " Close-up",
+                8
+            ],
+            [
+                " Medium Shot",
+                2
+            ]
+        ],
+        " moving": [
+            [
+                " Moving Aerial Pan Shot",
+                3
+            ],
+            [
+                " Survey Shot",
+                2
+            ],
+            [
+                " Fly-through Shot",
+                2
+            ],
+            [
+                " Bird's-eye Shot",
+                2
+            ],
+            [
+                " Moving bird's-eye Shot",
+                1
+            ]
+        ]
+    },
+    "('Tall', ' High', ' Natural')": {
+        " distance": [
+            [
+                " Very Long Shot",
+                5
+            ],
+            [
+                " Medium Shot",
+                5
+            ]
+        ],
+        " moving": [
+            [
+                " Bird's-eye Shot",
+                7
+            ],
+            [
+                " Fly-through Shot",
+                2
+            ],
+            [
+                " Moving bird's-eye Shot",
+                1
+            ]
+        ]
+    },
+    "('Tall', ' High', ' Suburban')": {
+        " distance": [
+            [
+                " Medium Shot",
+                6
+            ],
+            [
+                " Very Long Shot",
+                4
+            ]
+        ],
+        " moving": [
+            [
+                " Moving Aerial Tilt Shot",
+                9
+            ],
+            [
+                " Moving Bird's-eye Shot",
+                1
+            ]
+        ]
+    },
+    "('Tall', ' High', ' Urban')": {
+        " distance": [
+            [
+                " Medium Shot",
+                7
+            ],
+            [
+                " Very Long Shot",
+                3
+            ]
+        ],
+        " moving": [
+            [
+                " Moving Aerial Pan Shot",
+                10
+            ]
+        ]
+    },
+    "('Tall', ' Low', ' Natural')": {
+        " distance": [
+            [
+                " Very Long Shot",
+                7
+            ],
+            [
+                " Medium Shot",
+                3
+            ]
+        ],
+        " moving": [
+            [
+                " Moving bird's-eye Shot",
+                3
+            ],
+            [
+                " Fly-through Shot",
+                2
+            ],
+            [
+                " Bird's-eye Shot",
+                2
+            ],
+            [
+                " Survey Shot",
+                2
+            ],
+            [
+                " Moving Aerial Pan Shot",
+                1
+            ]
+        ]
+    },
+    "('Tall', ' Low', ' Suburban')": {
+        " distance": [
+            [
+                " Very Long Shot",
+                5
+            ],
+            [
+                " Medium Shot",
+                4
+            ],
+            [
+                " Close-up",
+                1
+            ]
+        ],
+        " moving": [
+            [
+                " Moving Aerial Pan Shot",
+                3
+            ],
+            [
+                " Moving Aerial Tilt Shot",
+                2
+            ],
+            [
+                " Survey Shot",
+                2
+            ],
+            [
+                " Bird's-eye Shot",
+                2
+            ],
+            [
+                " Pedestal/Elevator Shot",
+                1
+            ]
+        ]
+    },
+    "('Tall', ' Low', ' Urban')": {
+        " distance": [
+            [
+                " Medium Shot",
+                9
+            ],
+            [
+                " Close-up",
+                1
+            ]
+        ],
+        " moving": [
+            [
+                " Survey Shot",
+                4
+            ],
+            [
+                " Pedestal/Elevator Shot",
+                3
+            ],
+            [
+                " Fly-through Shot",
+                2
+            ],
+            [
+                " Moving bird's-eye Shot",
+                1
+            ]
+        ]
+    },
+    "('Tall', ' Medium', ' Natural')": {
+        " distance": [
+            [
+                " Very Long Shot",
+                6
+            ],
+            [
+                " Medium Shot",
+                3
+            ],
+            [
+                " Close-up",
+                1
+            ]
+        ],
+        " moving": [
+            [
+                " Moving bird's-eye Shot",
+                2
+            ],
+            [
+                " Survey Shot",
+                2
+            ],
+            [
+                " Moving Aerial Pan Shot",
+                2
+            ],
+            [
+                " Fly-through Shot",
+                1
+            ],
+            [
+                " Moving Bird's-eye Shot",
+                1
+            ],
+            [
+                " Moving Aerial Tilt Shot",
+                1
+            ],
+            [
+                " Pedestal/Elevator Shot",
+                1
+            ]
+        ]
+    },
+    "('Tall', ' Medium', ' Suburban')": {
+        " distance": [
+            [
+                " Medium Shot",
+                6
+            ],
+            [
+                " Very Long Shot",
+                4
+            ]
+        ],
+        " moving": [
+            [
+                " Moving Aerial Pan Shot",
+                3
+            ],
+            [
+                " Fly-through Shot",
+                3
+            ],
+            [
+                " Survey Shot",
+                2
+            ],
+            [
+                " Moving Aerial Tilt Shot",
+                1
+            ],
+            [
+                " Bird's-eye Shot",
+                1
+            ]
+        ]
+    },
+    "('Tall', ' Medium', ' Urban')": {
+        " distance": [
+            [
+                " Medium Shot",
+                10
+            ]
+        ],
+        " moving": [
+            [
+                " Pedestal/Elevator Shot",
+                7
+            ],
+            [
+                " Survey Shot",
+                2
+            ],
+            [
+                " Bird's-eye Shot",
+                1
+            ]
+        ]
+    }
+}

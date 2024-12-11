@@ -16,4 +16,4 @@ Analyze the provided frames from each video to infer the building’s features, 
 
 Respond only rules generated: <"Rules": "<Generated Machine-readable "if-then" Rules for all 27 combinations of building features>">
 Example:
-Machine-readable "if-then" Rules: `If height = <1.Height> and complexity = <1.complexity> and surroundings = <1.surroundings>, then distance = <selected 2.Distance> and moving = <selected 3.Movement>.`
+Machine-readable "if-then" Rules: `If height = <1.Height> and complexity = <1.complexity> and surroundings = <1.surroundings>, then distance = <selected 2.Distance> and moving = <selected 3.Movement>.`...

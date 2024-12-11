@@ -1,0 +1,35 @@
+1. If height = Tall and complexity = High and surroundings = Urban, then distance = Medium Shot and moving = Moving Aerial Pan Shot.
+2. If height = Tall and complexity = High and surroundings = Suburban, then distance = Medium Shot and moving = Moving Aerial Tilt Shot.
+3. If height = Tall and complexity = High and surroundings = Natural, then distance = Very Long Shot and moving = Bird's-eye Shot.
+
+4. If height = Tall and complexity = Medium and surroundings = Urban, then distance = Medium Shot and moving = Survey Shot.
+5. If height = Tall and complexity = Medium and surroundings = Suburban, then distance = Medium Shot and moving = Fly-through Shot.
+6. If height = Tall and complexity = Medium and surroundings = Natural, then distance = Very Long Shot and moving = Moving Bird's-eye Shot.
+
+7. If height = Tall and complexity = Low and surroundings = Urban, then distance = Medium Shot and moving = Pedestal/Elevator Shot.
+8. If height = Tall and complexity = Low and surroundings = Suburban, then distance = Medium Shot and moving = Survey Shot.
+9. If height = Tall and complexity = Low and surroundings = Natural, then distance = Very Long Shot and moving = Bird's-eye Shot.
+
+10. If height = Medium and complexity = High and surroundings = Urban, then distance = Medium Shot and moving = Moving Aerial Tilt Shot.
+11. If height = Medium and complexity = High and surroundings = Suburban, then distance = Medium Shot and moving = Fly-through Shot.
+12. If height = Medium and complexity = High and surroundings = Natural, then distance = Close-up and moving = Moving Bird's-eye Shot.
+
+13. If height = Medium and complexity = Medium and surroundings = Urban, then distance = Medium Shot and moving = Survey Shot.
+14. If height = Medium and complexity = Medium and surroundings = Suburban, then distance = Medium Shot and moving = Moving Aerial Pan Shot.
+15. If height = Medium and complexity = Medium and surroundings = Natural, then distance = Close-up and moving = Fly-through Shot.
+
+16. If height = Medium and complexity = Low and surroundings = Urban, then distance = Medium Shot and moving = Pedestal/Elevator Shot.
+17. If height = Medium and complexity = Low and surroundings = Suburban, then distance = Medium Shot and moving = Moving Aerial Tilt Shot.
+18. If height = Medium and complexity = Low and surroundings = Natural, then distance = Close-up and moving = Bird's-eye Shot.
+
+19. If height = Short and complexity = High and surroundings = Urban, then distance = Close-up and moving = Moving Bird's-eye Shot.
+20. If height = Short and complexity = High and surroundings = Suburban, then distance = Close-up and moving = Survey Shot.
+21. If height = Short and complexity = High and surroundings = Natural, then distance = Close-up and moving = Fly-through Shot.
+
+22. If height = Short and complexity = Medium and surroundings = Urban, then distance = Close-up and moving = Moving Aerial Pan Shot.
+23. If height = Short and complexity = Medium and surroundings = Suburban, then distance = Close-up and moving = Pedestal/Elevator Shot.
+24. If height = Short and complexity = Medium and surroundings = Natural, then distance = Close-up and moving = Moving Aerial Tilt Shot.
+
+25. If height = Short and complexity = Low and surroundings = Urban, then distance = Close-up and moving = Bird's-eye Shot.
+26. If height = Short and complexity = Low and surroundings = Suburban, then distance = Close-up and moving = Moving Bird's-eye Shot.
+27. If height = Short and complexity = Low and surroundings = Natural, then distance = Close-up and moving = Pedestal/Elevator Shot.
