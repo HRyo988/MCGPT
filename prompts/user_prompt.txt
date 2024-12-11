@@ -1,4 +1,5 @@
-Analyze the provided frames from each video to infer the building’s features, such as height, complexity, and surroundings. Based on these features, recommend the best combination of shooting parameters (`distance` and `moving`). Then, convert your recommendations into machine-readable "if-then" rules.
+Analyze 10 frames from each video to infer the building’s features, such as height, complexity, and surroundings. 
+Based on these features, recommend the best combination of shooting parameters based on the building features and 4.Rules.
 
 1. **Building Features**:
    - **Height**: Tall, Medium, Short.
@@ -9,21 +10,36 @@ Analyze the provided frames from each video to infer the building’s features, 
 
 3. **Movement**: Choose from: Moving Aerial Pan Shot, Moving Aerial Tilt Shot, Pedestal/Elevator Shot, Bird's-eye Shot, Moving bird's-eye Shot, Survey Shot, Fly-through Shot.
 
-1. **Extract building features**: Identify height (tall, medium, short), complexity (complex, medium, simple), and surroundings (urban, suburban, natural).
-2. **Generate a natural language rule**: Example: Natural Language Rule: "If the building is <1.Height>, <1.complexity>, and in <1.surroundings>, use <selected 3.movement> from <selected 2.distance>."
-3. **Convert to machine-readable "if-then"format**: Automatically convert the rule into an "if-then" structure. Example: `If height = <1.Height> and complexity = <1.complexity> and surroundings = <1.surroundings>, then distance = <selected 2.Distance> and moving = <selected 3.Movement>.`
-4. **Optimize**: Ensure the rules are consistent, non-redundant, and cover all 27 combinations.
+4. **Rules**:
+   - If height = Medium and complexity =  High and surroundings =  Natural, then distance =  Very Long Shot and moving =  Pedestal/Elevator Shot.
+   - If height = Medium and complexity =  High and surroundings =  Suburban, then distance =  Medium Shot and moving =  Fly-through Shot.
+   - If height = Medium and complexity =  High and surroundings =  Urban, then distance =  Medium Shot and moving =  Moving Aerial Tilt Shot.
+   - If height = Medium and complexity =  Low and surroundings =  Natural, then distance =  Very Long Shot and moving =  Fly-through Shot.
+   - If height = Medium and complexity =  Low and surroundings =  Suburban, then distance =  Medium Shot and moving =  Bird's-eye Shot.
+   - If height = Medium and complexity =  Low and surroundings =  Urban, then distance =  Medium Shot and moving =  Moving Aerial Tilt Shot.
+   - If height = Medium and complexity =  Medium and surroundings =  Natural, then distance =  Very Long Shot and moving =  Survey Shot.
+   - If height = Medium and complexity =  Medium and surroundings =  Suburban, then distance =  Medium Shot and moving =  Fly-through Shot.
+   - If height = Medium and complexity =  Medium and surroundings =  Urban, then distance =  Medium Shot and moving =  Survey Shot.
+   - If height = Short and complexity =  High and surroundings =  Natural, then distance =  Medium Shot and moving =  Fly-through Shot.
+   - If height = Short and complexity =  High and surroundings =  Suburban, then distance =  Close-up and moving =  Moving Aerial Pan Shot.
+   - If height = Short and complexity =  High and surroundings =  Urban, then distance =  Close-up and moving =  Pedestal/Elevator Shot.
+   - If height = Short and complexity =  Low and surroundings =  Natural, then distance =  Medium Shot and moving =  Bird's-eye Shot.
+   - If height = Short and complexity =  Low and surroundings =  Suburban, then distance =  Close-up and moving =  Moving Aerial Pan Shot.
+   - If height = Short and complexity =  Low and surroundings =  Urban, then distance =  Close-up and moving =  Survey Shot.
+   - If height = Short and complexity =  Medium and surroundings =  Natural, then distance =  Medium Shot and moving =  Survey Shot.
+   - If height = Short and complexity =  Medium and surroundings =  Suburban, then distance =  Close-up and moving =  Pedestal/Elevator Shot.
+   - If height = Short and complexity =  Medium and surroundings =  Urban, then distance =  Close-up and moving =  Moving Aerial Pan Shot.
+   - If height = Tall and complexity =  High and surroundings =  Natural, then distance =  Very Long Shot and moving =  Bird's-eye Shot.
+   - If height = Tall and complexity =  High and surroundings =  Suburban, then distance =  Medium Shot and moving =  Moving Aerial Tilt Shot.
+   - If height = Tall and complexity =  High and surroundings =  Urban, then distance =  Medium Shot and moving =  Moving Aerial Pan Shot.
+   - If height = Tall and complexity =  Low and surroundings =  Natural, then distance =  Very Long Shot and moving =  Moving bird's-eye Shot.
+   - If height = Tall and complexity =  Low and surroundings =  Suburban, then distance =  Very Long Shot and moving =  Moving Aerial Pan Shot.
+   - If height = Tall and complexity =  Low and surroundings =  Urban, then distance =  Medium Shot and moving =  Survey Shot.
+   - If height = Tall and complexity =  Medium and surroundings =  Natural, then distance =  Very Long Shot and moving =  Moving bird's-eye Shot.
+   - If height = Tall and complexity =  Medium and surroundings =  Suburban, then distance =  Medium Shot and moving =  Moving Aerial Pan Shot.
+   - If height = Tall and complexity =  Medium and surroundings =  Urban, then distance =  Medium Shot and moving =  Pedestal/Elevator Shot.
 
-Respond with the rules and shot details for each video in the following JSON format:
+**Step 1**: Extract building features (height, complexity, surroundings) from the frames.
+**Step 2**: Based on the building features extracted and 4.Rules, recommend the best combination of shooting parameters.
 
-```json
-{
-    "Rules": "<Generated Machine-readable "if-then" Rules for all combinations of building features>",
-    "Shot details of all videos": {
-        "video name": "<referenced video name>",
-        "Preferred shot combination": {
-            "distance": "<selected 2.Distance>",
-            "moving": "<selected 3.Movement>"
-        }
-    }
-}
+Output only "distance <selected 2.Distance>" and "moving <selected 3.Movement>", excluding the process.
