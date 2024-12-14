@@ -22,29 +22,29 @@ Your task is to analyze these frames and recommend the best combination of shoot
    - **Fly-through Shot**: The camera is set at a straight-on angle to the object and moves from far to near, passing through it.
 
 4. **Rules**:
-   - If height = Medium and complexity =  High and surroundings =  Natural, then distance =  Very Long Shot and moving =  Pedestal/Elevator Shot.
-   - If height = Medium and complexity =  High and surroundings =  Suburban, then distance =  Medium Shot and moving =  Fly-through Shot.
+   - If height = Medium and complexity =  High and surroundings =  Natural, then distance =  Very Long Shot and moving =  Bird's-eye Shot.
+   - If height = Medium and complexity =  High and surroundings =  Suburban, then distance =  Medium Shot and moving =  Moving Aerial Pan Shot.
    - If height = Medium and complexity =  High and surroundings =  Urban, then distance =  Medium Shot and moving =  Moving Aerial Tilt Shot.
    - If height = Medium and complexity =  Low and surroundings =  Natural, then distance =  Very Long Shot and moving =  Fly-through Shot.
-   - If height = Medium and complexity =  Low and surroundings =  Suburban, then distance =  Medium Shot and moving =  Bird's-eye Shot.
+   - If height = Medium and complexity =  Low and surroundings =  Suburban, then distance =  Very Long Shot and moving =  Bird's-eye Shot.
    - If height = Medium and complexity =  Low and surroundings =  Urban, then distance =  Medium Shot and moving =  Moving Aerial Tilt Shot.
-   - If height = Medium and complexity =  Medium and surroundings =  Natural, then distance =  Very Long Shot and moving =  Survey Shot.
-   - If height = Medium and complexity =  Medium and surroundings =  Suburban, then distance =  Medium Shot and moving =  Fly-through Shot.
+   - If height = Medium and complexity =  Medium and surroundings =  Natural, then distance =  Medium Shot and moving =  Survey Shot.
+   - If height = Medium and complexity =  Medium and surroundings =  Suburban, then distance =  Medium Shot and moving =  Moving Aerial Pan Shot.
    - If height = Medium and complexity =  Medium and surroundings =  Urban, then distance =  Medium Shot and moving =  Survey Shot.
    - If height = Short and complexity =  High and surroundings =  Natural, then distance =  Medium Shot and moving =  Fly-through Shot.
-   - If height = Short and complexity =  High and surroundings =  Suburban, then distance =  Close-up and moving =  Moving Aerial Pan Shot.
+   - If height = Short and complexity =  High and surroundings =  Suburban, then distance =  Close-up and moving =  Moving Aerial Tilt Shot.
    - If height = Short and complexity =  High and surroundings =  Urban, then distance =  Close-up and moving =  Pedestal/Elevator Shot.
    - If height = Short and complexity =  Low and surroundings =  Natural, then distance =  Medium Shot and moving =  Bird's-eye Shot.
-   - If height = Short and complexity =  Low and surroundings =  Suburban, then distance =  Close-up and moving =  Moving Aerial Pan Shot.
+   - If height = Short and complexity =  Low and surroundings =  Suburban, then distance =  Close-up and moving =  Moving Aerial Tilt Shot.
    - If height = Short and complexity =  Low and surroundings =  Urban, then distance =  Close-up and moving =  Survey Shot.
-   - If height = Short and complexity =  Medium and surroundings =  Natural, then distance =  Medium Shot and moving =  Survey Shot.
-   - If height = Short and complexity =  Medium and surroundings =  Suburban, then distance =  Close-up and moving =  Pedestal/Elevator Shot.
+   - If height = Short and complexity =  Medium and surroundings =  Natural, then distance =  Medium Shot and moving =  Moving bird's-eye Shot.
+   - If height = Short and complexity =  Medium and surroundings =  Suburban, then distance =  Close-up and moving =  Survey Shot.
    - If height = Short and complexity =  Medium and surroundings =  Urban, then distance =  Close-up and moving =  Moving Aerial Pan Shot.
    - If height = Tall and complexity =  High and surroundings =  Natural, then distance =  Very Long Shot and moving =  Bird's-eye Shot.
    - If height = Tall and complexity =  High and surroundings =  Suburban, then distance =  Medium Shot and moving =  Moving Aerial Tilt Shot.
    - If height = Tall and complexity =  High and surroundings =  Urban, then distance =  Medium Shot and moving =  Moving Aerial Pan Shot.
-   - If height = Tall and complexity =  Low and surroundings =  Natural, then distance =  Very Long Shot and moving =  Moving bird's-eye Shot.
-   - If height = Tall and complexity =  Low and surroundings =  Suburban, then distance =  Very Long Shot and moving =  Moving Aerial Pan Shot.
+   - If height = Tall and complexity =  Low and surroundings =  Natural, then distance =  Very Long Shot and moving =  Fly-through Shot.
+   - If height = Tall and complexity =  Low and surroundings =  Suburban, then distance =  Very Long Shot and moving =  Bird's-eye Shot.
    - If height = Tall and complexity =  Low and surroundings =  Urban, then distance =  Medium Shot and moving =  Survey Shot.
    - If height = Tall and complexity =  Medium and surroundings =  Natural, then distance =  Very Long Shot and moving =  Moving bird's-eye Shot.
    - If height = Tall and complexity =  Medium and surroundings =  Suburban, then distance =  Medium Shot and moving =  Moving Aerial Pan Shot.
