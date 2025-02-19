@@ -1,0 +1,10 @@
+13
+If height = Tall and complexity = High, then distance = Very Long Shot and moving = Moving Aerial Pan Shot.
+If height = Tall and complexity = Medium, then distance = Medium Shot and moving = Moving Aerial Tilt Shot.
+If height = Tall and complexity = Low, then distance = Medium Shot and moving = Fly-through Shot.
+If height = Medium and complexity = High, then distance = Medium Shot and moving = Pedestal/Elevator Shot.
+If height = Medium and complexity = Medium, then distance = Medium Shot and moving = Survey Shot.
+If height = Medium and complexity = Low, then distance = Close-up and moving = Bird's-eye Shot.
+If height = Short and complexity = High, then distance = Medium Shot and moving = Moving bird's-eye Shot.
+If height = Short and complexity = Medium, then distance = Close-up and moving = Moving Aerial Pan Shot.
+If height = Short and complexity = Low, then distance = Close-up and moving = Survey Shot.

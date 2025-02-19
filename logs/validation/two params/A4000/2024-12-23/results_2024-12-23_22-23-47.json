@@ -1,0 +1,89 @@
+[
+    {
+        "model": "gpt-4o",
+        "Videos": "A4000",
+        "Range_IDX": 5,
+        "system_prompt": "You are an expert in video analysis, identifying building types, sizes, and visual features from a series of frames. \nEach video has 10 frames, capturing the subject from different angles and distances. \nYour task is to analyze these frames and recommend the best combination of shooting parameters based on the building features and 4.Rules.\n\n1. **Building Features**:\n   - **Height**: Tall, Medium, Short.\n   - **Complexity**: High (complex), Medium, Low (simple).\n\n2. **Distance**: Choose from:\n   - **Close-up**: The object is prominently featured and details are captured excellently, but this close distance limits any contextual background, focusing solely on fine features of the object.\n   - **Medium Shot**: The object is centered and fills more of the frame, providing a good balance between highlighting the object and maintaining some background context, though it may not capture precise details as closely as desired.\n   - **Very Long Shot**: The object appears small with ample space around it, offering a strong sense of context and environment, however, the details of the object itself are not clearly visible due to the distance.\n\n3. **Movement**: Choose from:\n   - **Moving Aerial Pan Shot**: The camera is set at a high angle facing the object and moves steadily from left to right.\n   - **Moving Aerial Tilt Shot**: The camera is positioned at a high angle above the object and moves vertically upward to capture the object from an overlooking perspective.\n   - **Pedestal/Elevator Shot**: The camera is set at a mid-height and frontal angle to the object and moves from a low position upward to a higher position.\n   - **Bird's-eye Shot**: The camera is set at a high altitude and is directly overhead the object, slowly zooming out for a wider view.\n   - **Moving bird's-eye Shot**: The camera is set at a high, top-down angle to the subject and moves slightly upward while focusing on the center.\n   - **Survey Shot**: The camera is set at a high angle to the subject, slightly off to the left from the front, and moves forward.\n   - **Fly-through Shot**: The camera is set at a straight-on angle to the object and moves from far to near, passing through it.\n\n4. **Rules**:\n   - If height = Tall and complexity = High, then distance = Very Long Shot and moving = Moving Aerial Pan Shot.\n   - If height = Tall and complexity = Medium, then distance = Medium Shot and moving = Moving Aerial Tilt Shot.\n   - If height = Tall and complexity = Low, then distance = Close-up and moving = Pedestal/Elevator Shot.\n   - If height = Medium and complexity = High, then (distance = Medium Shot and moving = Pedestal/Elevator Shot) or (distance = Close-upand moving = Fly-through Shot) or (distance = Medium Shot and moving = Fly-through Shot) or (distance = Medium Shot and moving = Survey Shot).\n   - If height = Medium and complexity = Medium, then distance = Medium Shot and moving = Pedestal/Elevator Shot.\n   - If height = Medium and complexity = Low, then distance = Close-up and moving = Survey Shot.\n   - If height = Short and complexity = High, then distance = Medium Shot and moving = Moving bird's-eye Shot.\n   - If height = Short and complexity = Medium, then (distance = Close-up and moving = Fly-through Shot) or (distance = Medium Shot and moving = Fly-through Shot).\n   - If height = Short and complexity = Low, then distance = Very Long Shot and moving = Bird's-eye Shot.\n\n**Step 1**: Extract building features (height, complexity) from the frames.\n**Step 2**: Based on the building features extracted and 4.Rules, recommend the best combination of shooting parameters.\n\nOutput only \"distance <selected 2.Distance>\" and \"moving <selected 3.Movement>\", excluding the process.",
+        "user_prompt": "Analyze 10 frames from each video to infer the building’s features, such as height, complexity. \nBased on these features, recommend the best combination of shooting parameters based on the building features and 4.Rules.\n\n1. **Building Features**:\n   - Height: Tall, Medium, Short.\n   - Complexity: High (complex), Medium, Low (simple).\n\n2. **Distance**: Choose from: Close-up, Medium Shot, Very Long Shot.\n\n3. **Movement**: Choose from: Moving Aerial Pan Shot, Moving Aerial Tilt Shot, Pedestal/Elevator Shot, Bird's-eye Shot, Moving bird's-eye Shot, Survey Shot, Fly-through Shot.\n\n4. **Rules**:\n   - If height = Tall and complexity = High, then distance = Very Long Shot and moving = Moving Aerial Pan Shot.\n   - If height = Tall and complexity = Medium, then distance = Medium Shot and moving = Moving Aerial Tilt Shot.\n   - If height = Tall and complexity = Low, then distance = Close-up and moving = Pedestal/Elevator Shot.\n   - If height = Medium and complexity = High, then (distance = Medium Shot and moving = Pedestal/Elevator Shot) or (distance = Close-upand moving = Fly-through Shot) or (distance = Medium Shot and moving = Fly-through Shot) or (distance = Medium Shot and moving = Survey Shot).\n   - If height = Medium and complexity = Medium, then distance = Medium Shot and moving = Pedestal/Elevator Shot.\n   - If height = Medium and complexity = Low, then distance = Close-up and moving = Survey Shot.\n   - If height = Short and complexity = High, then distance = Medium Shot and moving = Moving bird's-eye Shot.\n   - If height = Short and complexity = Medium, then (distance = Close-up and moving = Fly-through Shot) or (distance = Medium Shot and moving = Fly-through Shot).\n   - If height = Short and complexity = Low, then distance = Very Long Shot and moving = Bird's-eye Shot.\n\n**Step 1**: Extract building features (height, complexity) from the frames.\n**Step 2**: Based on the building features extracted and 4.Rules, recommend the best combination of shooting parameters.\n\nOutput only \"distance <selected 2.Distance>\" and \"moving <selected 3.Movement>\", excluding the process."
+    },
+    {
+        "iteration": 0,
+        "output": "distance Medium Shot  \nmoving Moving bird's-eye Shot"
+    },
+    {
+        "iteration": 1,
+        "output": "distance Medium Shot  \nmoving Pedestal/Elevator Shot"
+    },
+    {
+        "iteration": 2,
+        "output": "distance Medium Shot and moving Pedestal/Elevator Shot"
+    },
+    {
+        "iteration": 3,
+        "output": "distance Medium Shot  \nmoving Pedestal/Elevator Shot"
+    },
+    {
+        "iteration": 4,
+        "output": "distance Medium Shot  \nmoving Survey Shot"
+    },
+    {
+        "iteration": 5,
+        "output": "distance Medium Shot<br>moving Moving bird's-eye Shot"
+    },
+    {
+        "iteration": 6,
+        "output": "distance Medium Shot  \nmoving Pedestal/Elevator Shot"
+    },
+    {
+        "iteration": 7,
+        "output": "Distance Medium Shot and moving Fly-through Shot."
+    },
+    {
+        "iteration": 8,
+        "output": "distance Medium Shot  \nmoving Moving bird's-eye Shot"
+    },
+    {
+        "iteration": 9,
+        "output": "distance Medium Shot  \nmoving Pedestal/Elevator Shot"
+    },
+    {
+        "iteration": 10,
+        "output": "distance Very Long Shot  \nmoving Bird's-eye Shot"
+    },
+    {
+        "iteration": 11,
+        "output": "distance Medium Shot  \nmoving Pedestal/Elevator Shot"
+    },
+    {
+        "iteration": 12,
+        "output": "distance Medium Shot  \nmoving Pedestal/Elevator Shot"
+    },
+    {
+        "iteration": 13,
+        "output": "distance Medium Shot  \nmoving Pedestal/Elevator Shot"
+    },
+    {
+        "iteration": 14,
+        "output": "distance Very Long Shot  \nmoving Moving Aerial Pan Shot"
+    },
+    {
+        "iteration": 15,
+        "output": "distance Medium Shot  \nmoving Pedestal/Elevator Shot"
+    },
+    {
+        "iteration": 16,
+        "output": "distance Medium Shot\n\nmoving Fly-through Shot"
+    },
+    {
+        "iteration": 17,
+        "output": "distance Medium Shot  \nmoving Moving Aerial Pan Shot"
+    },
+    {
+        "iteration": 18,
+        "output": "distance Medium Shot  \nmoving Survey Shot"
+    },
+    {
+        "iteration": 19,
+        "output": "distance Medium Shot  \nmoving Pedestal/Elevator Shot"
+    }
+]

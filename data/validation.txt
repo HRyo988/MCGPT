@@ -1,0 +1,163 @@
+['Video_C0102', 'Video_C0002', 'Video_C1102', 'Video_D1003', 'Video_C1202', 'Video_C2102', 'Video_F2205', 'Video_C3102', 'Video_C3202', 'Video_F4105', 'Video_C4202', 'Video_F4205', 'Video_C5202', 'Video_C6202', 'Video_F7105', 'Video_C7202', 'Video_C8202', 'Video_C9102', 'Video_FX105', 'Video_CX002', 'Video_FX005', 'Video_CX202']
+
+
+--------Fold1---------------
+[0, 13, 8, 1, 15, 5, 20]	
+
+```json
+{
+    "Rules": "Modern buildings with unique features tend to be shot using Medium distance with Moving Aerial Pan shots to highlight architectural details. Older or rustic structures are often presented in Very-far distance using Survey shots to capture the broader context. Dynamic elements like hot air balloons or towers are showcased with Close-Up distance as well as Moving Aerial Tilt to emphasize height and perspective.",
+    "Shot details": {
+        "video 1": {
+            "Preferred shot combination": {
+                "distance": "Medium",
+                "moving": "Moving Aerial Pan shot"
+            }
+        },
+        "video 2": {
+            "Preferred shot combination": {
+                "distance": "Medium",
+                "moving": "Moving Aerial Pan shot"
+            }
+        },
+        "video 3": {
+            "Preferred shot combination": {
+                "distance": "Close-UP",
+                "moving": "Moving Aerial Tilt shot"
+            }
+        },
+        "video 4": {
+            "Preferred shot combination": {
+                "distance": "Very-far",
+                "moving": "Survey shot"
+            }
+        },
+        "video 5": {
+            "Preferred shot combination": {
+                "distance": "Very-far",
+                "moving": "Survey shot"
+            }
+        },
+        "video 6": {
+            "Preferred shot combination": {
+                "distance": "Medium",
+                "moving": "Moving Aerial Pan shot"
+            }
+        },
+        "video 7": {
+            "Preferred shot combination": {
+                "distance": "Close-UP",
+                "moving": "Pedestal/Elevator shot"
+            }
+        }
+    }
+}
+```
+
+
+-------------Fold2-------------------
+[21, 13, 8, 5, 4, 14, 19]
+
+```json
+{
+    "Rules": "Buildings in urban environments or those featuring detailed architecture are often best captured with Medium distance shots combined with Moving Aerial Pan shots to highlight their complexity. In contrast, vast landscapes or scenic views may benefit from Very-far distance shots paired with Survey or Fly-Through movements to create a sense of scale and beauty.",
+    "Shot details": {
+        "video 1": {
+            "Preferred shot combination": {
+                "distance": "Medium",
+                "moving": "Moving Aerial Pan shot"
+            }
+        },
+        "video 2": {
+            "Preferred shot combination": {
+                "distance": "Medium",
+                "moving": "Survey shot"
+            }
+        },
+        "video 3": {
+            "Preferred shot combination": {
+                "distance": "Very-far",
+                "moving": "Fly-Through shot"
+            }
+        },
+        "video 4": {
+            "Preferred shot combination": {
+                "distance": "Medium",
+                "moving": "Moving Aerial Tilt shot"
+            }
+        },
+        "video 5": {
+            "Preferred shot combination": {
+                "distance": "Medium",
+                "moving": "Moving Aerial Pan shot"
+            }
+        },
+        "video 6": {
+            "Preferred shot combination": {
+                "distance": "Very-far",
+                "moving": "Survey shot"
+            }
+        },
+        "video 7": {
+            "Preferred shot combination": {
+                "distance": "Close-UP",
+                "moving": "Pedestal/Elevator shot"
+            }
+        }
+    }
+}
+```
+
+
+-------------Fold3-----------------------
+[10, 16, 14, 15, 19, 12, 0]
+
+```json
+{
+    "Rules": "Tall structures like towers and skyscrapers are best showcased with a Moving Aerial Tilt shot for a dynamic perspective, while landscapes with various elements typically favor a Survey shot for an expansive view. Close-up shots work well for intricate details of buildings, while medium distances allow for context within a scene.",
+    "Shot details": {
+        "video 1": {
+            "Preferred shot combination": {
+                "distance": "Very-far",
+                "moving": "Survey shot"
+            }
+        },
+        "video 2": {
+            "Preferred shot combination": {
+                "distance": "Medium",
+                "moving": "Bird's Eye shot"
+            }
+        },
+        "video 3": {
+            "Preferred shot combination": {
+                "distance": "Very-far",
+                "moving": "Survey shot"
+            }
+        },
+        "video 4": {
+            "Preferred shot combination": {
+                "distance": "Very-far",
+                "moving": "Survey shot"
+            }
+        },
+        "video 5": {
+            "Preferred shot combination": {
+                "distance": "Close-UP",
+                "moving": "Moving Aerial Tilt shot"
+            }
+        },
+        "video 6": {
+            "Preferred shot combination": {
+                "distance": "Medium",
+                "moving": "Bird's Eye shot"
+            }
+        },
+        "video 7": {
+            "Preferred shot combination": {
+                "distance": "Medium",
+                "moving": "Moving Aerial Tilt shot"
+            }
+        }
+    }
+}
+```

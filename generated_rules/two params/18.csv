@@ -1,0 +1,10 @@
+height,complexity,distance,moving
+Tall,High,Very Long Shot,Moving Aerial Pan Shot
+Tall,Medium,Medium Shot,Survey Shot
+Tall,Low,Close-up,Pedestal/Elevator Shot
+Medium,High,Very Long Shot,Moving Aerial Tilt Shot
+Medium,Medium,Medium Shot,Fly-through Shot
+Medium,Low,Close-up,Bird's-eye Shot
+Short,High,Medium Shot,Moving bird's-eye Shot
+Short,Medium,Close-up,Pedestal/Elevator Shot
+Short,Low,Close-up,Bird's-eye Shot

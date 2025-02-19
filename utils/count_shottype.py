@@ -5,7 +5,7 @@ from collections import Counter
 import json
 
 # ディレクトリのパス
-output_dir = "./generated_rules"
+output_dir = "./generated_rules/two params"
 csv_output_file = os.path.join(output_dir, "count_shottype.csv")
 json_output_file = os.path.join(output_dir, "count_shottype.json")
 
@@ -13,11 +13,13 @@ json_output_file = os.path.join(output_dir, "count_shottype.json")
 os.makedirs(output_dir, exist_ok=True)
 
 # CSVファイルのパスを指定（複数読み込み）
-csv_files = glob.glob("./generated_rules/*.csv")
+csv_files = glob.glob("./generated_rules/two params/*.csv")
 
 # 出力用のファイルを読み込み対象から除外
-csv_files = [file for file in csv_files if not file.endswith("count_shottype.csv") and not file.endswith("count_shottype.json")]
+csv_files = [
+    file for file in csv_files if not file.endswith("count_shottype.csv")]
 
+print(csv_files)
 # 全てのCSVを読み込んで結合
 df_list = []
 combined_df = pd.DataFrame()  # 空のデータフレームを初期化
@@ -32,8 +34,8 @@ for idx, file in enumerate(csv_files):
     combined_df = pd.concat([combined_df, df], ignore_index=True)
 
 # 左3列でカテゴリ化
-group_columns = ["height", " complexity", " surroundings"]
-value_columns = [" distance", " moving"]
+group_columns = ["height", "complexity"]
+value_columns = ["distance", "moving"]
 
 # CSV用の最頻出値計算関数
 # def calculate_mode(sub_df):
@@ -52,7 +54,7 @@ value_columns = [" distance", " moving"]
 # CSV用の最頻出ペア値計算関数
 def calculate_mode_set(sub_df):
     # 2列の値をセットとして組み合わせ、頻度を計算
-    combined_pairs = list(zip(sub_df[" distance"], sub_df[" moving"]))
+    combined_pairs = list(zip(sub_df["distance"], sub_df["moving"]))
     most_common_pair = Counter(combined_pairs).most_common(1)[0]
     print(f"Most common pair in 'distance' and 'moving': {most_common_pair}")  # 最頻出ペアを表示
     return pd.Series({" distance": most_common_pair[0][0], " moving": most_common_pair[0][1]})
@@ -107,7 +109,7 @@ def calculate_mode_set_json(sub_df, category_dict):
     group_key_str = str(group_key)
     
     # 2列の値をセットとして組み合わせ、頻度を計算
-    combined_pairs = list(zip(sub_df[" distance"], sub_df[" moving"]))
+    combined_pairs = list(zip(sub_df["distance"], sub_df["moving"]))
     most_common_pairs = Counter(combined_pairs).most_common()  # 頻出順に並べる
     print(f"Most common pairs: {most_common_pairs}")  # 最頻出ペアを表示
     

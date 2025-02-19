@@ -1,11 +1,17 @@
 import json
 import cv2
 import base64
-from openai import OpenAI
+from dotenv import load_dotenv
+import openai
 import os
 import datetime
 
-client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY", "YOUR_API_KEY"))
+# client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY", "YOUR_API_KEY"))
+# .envファイルを読み込む
+load_dotenv()
+
+# 環境変数からAPIキーを取得
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 json_path = './data/labels/filtered_details.json'
 
@@ -112,25 +118,34 @@ params = {
     "messages": PROMPT_MESSAGES,
 }
 
-for iter in range(10):
-    result = client.chat.completions.create(**params)
-    output = result.choices[0].message.content
+for iter in range(3):
+    while True:
+        try:
+            # APIリクエスト
+            result = openai.ChatCompletion.create(**params)
+            output = result.choices[0].message.content
+            
+            # 成功時の結果表示
+            print(f"----Iter {iter}----")
+            print(output)
 
-    print("----Iter {0}----".format(iter))
-    print(output)
-
-    # 結果を保存
-    results.append({
-        "iter": iter,
-        "model": params["model"],
-        "Videos": video_names,
-        "system_prompt": system_prompt,
-        "user_prompt": user_prompt,
-        "output": output
-    })
+            # 結果を保存
+            results.append({
+                "iter": iter,
+                "model": params["model"],
+                "Videos": video_names,
+                "system_prompt": system_prompt,
+                "user_prompt": user_prompt,
+                "output": output
+            })
+            break  # 成功したらループを抜ける
+        except openai.error.OpenAIError as e:
+            # 失敗時のエラーメッセージを出力
+            print(f"Error on iter {iter}: {e}")
+            print("Retrying...")
 
 # Create logs directory and date-based folder
-log_dir = './logs'
+log_dir = './generated_rules/two params'
 date_str = datetime.datetime.now().strftime('%Y-%m-%d')
 date_dir = os.path.join(log_dir, date_str)
 os.makedirs(date_dir, exist_ok=True)

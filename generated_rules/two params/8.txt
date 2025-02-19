@@ -1,0 +1,18 @@
+8
+1. `If height = Tall and complexity = High, then distance = Very Long Shot and moving = Moving Aerial Pan Shot.`
+
+2. `If height = Tall and complexity = Medium, then distance = Medium Shot and moving = Moving Aerial Tilt Shot.`
+
+3. `If height = Tall and complexity = Low, then distance = Medium Shot and moving = Pedestal/Elevator Shot.`
+
+4. `If height = Medium and complexity = High, then distance = Medium Shot and moving = Survey Shot.`
+
+5. `If height = Medium and complexity = Medium, then distance = Close-up and moving = Fly-through Shot.`
+
+6. `If height = Medium and complexity = Low, then distance = Medium Shot and moving = Moving bird's-eye Shot.`
+
+7. `If height = Short and complexity = High, then distance = Medium Shot and moving = Moving Aerial Tilt Shot.`
+
+8. `If height = Short and complexity = Medium, then distance = Close-up and moving = Bird's-eye Shot.`
+
+9. `If height = Short and complexity = Low, then distance = Close-up and moving = Pedestal/Elevator Shot.`

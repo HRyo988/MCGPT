@@ -1,0 +1,19 @@
+Analyze the provided frames from each video to infer the building’s features, such as height, complexity, and surroundings. Based on these features, generate machine-readable "if-then" rules.
+
+1. **Building Features**:
+   - **Height**: Tall, Medium, Short.
+   - **Complexity**: High (complex), Medium, Low (simple).
+   - **Surroundings**: Urban, Suburban, Natural.
+
+2. **Distance**: Choose from: Close-up, Medium Shot, Very Long Shot.
+
+3. **Movement**: Choose from: Moving Aerial Pan Shot, Moving Aerial Tilt Shot, Pedestal/Elevator Shot, Bird's-eye Shot, Moving bird's-eye Shot, Survey Shot, Fly-through Shot.
+
+1. **Extract building features**: Identify height (tall, medium, short), complexity (complex, medium, simple), and surroundings (urban, suburban, natural).
+2. **Generate a natural language rule**: Example: Natural Language Rule: "If the building is <1.Height>, <1.complexity>, and in <1.surroundings>, use <selected 3.movement> from <selected 2.distance>."
+3. **Convert to machine-readable "if-then"format**: Automatically convert the rule into an "if-then" structure. Example: `If height = <1.Height> and complexity = <1.complexity> and surroundings = <1.surroundings>, then distance = <selected 2.Distance> and moving = <selected 3.Movement>.`
+4. **Optimize**: Ensure the rules are consistent, non-redundant, and cover all 27 combinations.
+
+Respond only rules generated: <"Rules": "<Generated Machine-readable "if-then" Rules for all 27 combinations of building features>">
+Example:
+Machine-readable "if-then" Rules: `If height = <1.Height> and complexity = <1.complexity> and surroundings = <1.surroundings>, then distance = <selected 2.Distance> and moving = <selected 3.Movement>.`...

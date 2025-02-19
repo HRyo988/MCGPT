@@ -74,9 +74,10 @@ else:
 
     # 11~20番目のビデオ（インデックス10~19）に対してフレーム抽出を行う
     frame_lists = []
-    idx = 15
+    idx = 40 # インデックスを指定
 
     video_name = video_names[idx]  # インデックスでビデオ名を取得
+    # video_name = 'B6201'
     video_path = f"./data/evaluated/Video_{video_name}.mp4"
     frames = extract_frames(video_path)
     frame_lists.append(frames)
@@ -129,7 +130,7 @@ for iter in range(20):
     output = result.choices[0].message.content
     outputs.append(output) 
 
-    print(f"Iteration: {iter}")
+    print(f"-----Iteration: {iter}-----")
     print(output)
 
     # 結果を保存
@@ -170,7 +171,7 @@ for combo, count in combination_counts.items():
     print(f"{combo}: {count} times")
 
 # 結果を CSV ファイルに保存
-output_dir = f"./logs/test/{video_names[idx]}"
+output_dir = f"./logs/validation/two params/{video_name}"
 output_file = os.path.join(output_dir, "combination_frequencies.csv")
 
 # ディレクトリが存在しない場合は作成
@@ -184,7 +185,7 @@ with open(output_file, mode="w", newline="") as file:
 print(f"\n結果を '{output_file}' に保存しました！")
 
 # Create logs directory and date-based folder
-log_dir = f'./logs/test/{video_names[idx]}'
+log_dir = f'./logs/validation/two params/{video_name}'
 date_str = datetime.datetime.now().strftime('%Y-%m-%d')
 date_dir = os.path.join(log_dir, date_str)
 os.makedirs(date_dir, exist_ok=True)

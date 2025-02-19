@@ -1,11 +1,13 @@
 import cv2
 import base64
 import json
+import os
+import numpy as np
 
 class FrameExtractor:
     def __init__(self, json_path):
-        with open(json_path, 'r', encoding='utf-8') as f:
-            self.data = json.load(f)
+        with open(json_path, 'r') as json_file:
+            self.data = json.load(json_file)
 
     def get_video_names(self, map_number, entry_type, video_names_list):
         """
@@ -39,7 +41,12 @@ class FrameExtractor:
         :return: A list of base64-encoded frames.
         """
         for video_name in video_name_list:
-            video = cv2.VideoCapture('./data/' + video_name)
+            print(video_name)
+            video_path = "./data/evaluated/" + video_name + ".mp4"
+            # video_path = "./data/shot_types/moving/MAP.mp4"
+            
+            video = cv2.VideoCapture(video_path)
+
             frames = []
             while video.isOpened():
                 success, frame = video.read()
@@ -51,3 +58,48 @@ class FrameExtractor:
             # print(video_name, len(frames))
             video.release()
         return frames_list
+
+def save_sampled_frames(frames_list, output_dir="./output_frames/", num_frames=10):
+    """
+    Save a fixed number of evenly spaced frames as image files.
+
+    :param frames_list: List of Base64-encoded frames (list of lists).
+    :param output_dir: Directory to save the sampled frames.
+    :param num_frames: Number of frames to sample and save per video.
+    """
+    os.makedirs(output_dir, exist_ok=True)  # 保存先ディレクトリを作成
+
+    for video_index, video_frames in enumerate(frames_list):
+        video_dir = os.path.join(output_dir, f"video_{video_index + 3}")
+        os.makedirs(video_dir, exist_ok=True)  # 各動画ごとのディレクトリを作成
+
+        total_frames = len(video_frames)
+        if total_frames < num_frames:
+            print(f"Warning: Video {video_index + 1} has less than {num_frames} frames. Saving all {total_frames} frames.")
+            sampled_indices = range(total_frames)
+        else:
+            # 等間隔でフレームを選択
+            sampled_indices = np.linspace(0, total_frames - 1, num_frames, dtype=int)
+
+        for i, frame_index in enumerate(sampled_indices):
+            frame_base64 = video_frames[frame_index]
+            frame_data = base64.b64decode(frame_base64)
+            frame_np = np.frombuffer(frame_data, dtype=np.uint8)
+            frame_image = cv2.imdecode(frame_np, cv2.IMREAD_COLOR)
+
+            # フレーム画像を保存
+            frame_path = os.path.join(video_dir, f"frame_{i + 1}.jpg")
+            cv2.imwrite(frame_path, frame_image)
+
+        print(f"Saved {len(sampled_indices)} sampled frames for video_{video_index + 1} in {video_dir}.")
+
+
+
+if __name__ == "__main__":
+    json_path = "./data/labels/5_details.json"
+    frame_extractor = FrameExtractor(json_path)
+    
+    frames_list = []
+    video_name_list = ['Video_C3002']
+    frames_list = frame_extractor.extract_base64_frames(frames_list, video_name_list)
+    save_sampled_frames(frames_list, output_dir="./output_frames/", num_frames=10)

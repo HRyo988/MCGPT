@@ -1,0 +1,107 @@
+{
+    "('Medium', 'High')": {
+        "('Medium Shot', 'Pedestal/Elevator Shot')": 3,
+        "('Close-up', 'Fly-through Shot')": 3,
+        "('Medium Shot', 'Fly-through Shot')": 3,
+        "('Medium Shot', 'Survey Shot')": 3,
+        "('Very Long Shot', 'Moving Aerial Tilt Shot')": 2,
+        "('Close-up', 'Moving Aerial Tilt Shot')": 1,
+        "('Medium Shot', 'Moving Aerial Tilt Shot')": 1,
+        "('Medium Shot', nan)": 1,
+        "('Close-up', 'Pedestal/Elevator Shot')": 1,
+        "('Very Long Shot', \"Moving bird's-eye Shot\")": 1,
+        "('Medium Shot', 'Moving Aerial Pan Shot')": 1
+    },
+    "('Medium', 'Low')": {
+        "('Close-up', 'Survey Shot')": 4,
+        "('Very Long Shot', 'Survey Shot')": 3,
+        "('Close-up', \"Bird's-eye Shot\")": 3,
+        "('Medium Shot', \"Moving bird's-eye Shot\")": 2,
+        "('Very Long Shot', \"Moving bird's-eye Shot\")": 1,
+        "('Very Long Shot', \"Moving Bird's-eye Shot\")": 1,
+        "('Close-up', 'Moving Aerial Tilt Shot')": 1,
+        "('Very Long Shot', nan)": 1,
+        "('Very Long Shot', 'Fly-through Shot')": 1,
+        "('Close-up', 'Moving Aerial Pan Shot')": 1,
+        "('Very Long Shot', \"Bird's-eye Shot\")": 1,
+        "('Close-up', 'Fly-through Shot')": 1
+    },
+    "('Medium', 'Medium')": {
+        "('Medium Shot', 'Pedestal/Elevator Shot')": 6,
+        "('Medium Shot', 'Survey Shot')": 5,
+        "('Medium Shot', \"Bird's-eye Shot\")": 2,
+        "('Medium Shot', 'Fly-through Shot')": 2,
+        "('Close-up', 'Pedestal/Elevator Shot')": 2,
+        "('Very Long Shot', 'Moving Aerial Tilt Shot')": 1,
+        "('Medium Shot', nan)": 1,
+        "('Close-up', 'Fly-through Shot')": 1
+    },
+    "('Short', 'High')": {
+        "('Medium Shot', \"Moving bird's-eye Shot\")": 4,
+        "('Close-up', \"Bird's-eye Shot\")": 3,
+        "('Close-up', 'Fly-through Shot')": 2,
+        "('Medium Shot', 'Survey Shot')": 2,
+        "('Medium Shot', 'Fly-through Shot')": 2,
+        "('Close-up', \"Moving bird's-eye Shot\")": 2,
+        "('Very Long Shot', \"Moving bird's-eye Shot\")": 1,
+        "('Close-up', nan)": 1,
+        "('Medium Shot', 'Moving Aerial Pan Shot')": 1,
+        "('Close-up', 'Pedestal/Elevator Shot')": 1,
+        "('Medium Shot', 'Moving Aerial Tilt Shot')": 1
+    },
+    "('Short', 'Low')": {
+        "('Very Long Shot', \"Bird's-eye Shot\")": 4,
+        "('Close-up', 'Pedestal/Elevator Shot')": 3,
+        "('Close-up', 'Survey Shot')": 2,
+        "('Close-up', 'Fly-through Shot')": 2,
+        "('Close-up', \"Bird's-eye Shot\")": 2,
+        "('Very Long Shot', \"Moving bird's-eye Shot\")": 2,
+        "('Close-up', \"Moving bird's-eye Shot\")": 1,
+        "('Very Long Shot', 'Survey Shot')": 1,
+        "('Very Long Shot', 'Pedestal/Elevator Shot')": 1,
+        "('Close-up', nan)": 1,
+        "('Very Long Shot', \"Moving Bird's-eye Shot\")": 1
+    },
+    "('Short', 'Medium')": {
+        "('Close-up', 'Fly-through Shot')": 4,
+        "('Medium Shot', 'Fly-through Shot')": 4,
+        "('Medium Shot', 'Survey Shot')": 3,
+        "('Medium Shot', 'Moving Aerial Pan Shot')": 1,
+        "('Close-up', 'Moving Aerial Pan Shot')": 1,
+        "('Very Long Shot', 'Survey Shot')": 1,
+        "('Medium Shot', \"Moving bird's-eye Shot\")": 1,
+        "('Medium Shot', nan)": 1,
+        "('Close-up', 'Pedestal/Elevator Shot')": 1,
+        "('Medium Shot', 'Moving Aerial Tilt Shot')": 1,
+        "('Medium Shot', \"Bird's-eye Shot\")": 1,
+        "('Close-up', \"Bird's-eye Shot\")": 1
+    },
+    "('Tall', 'High')": {
+        "('Very Long Shot', 'Moving Aerial Pan Shot')": 10,
+        "('Medium Shot', 'Moving Aerial Pan Shot')": 4,
+        "('Medium Shot', 'Moving Aerial Tilt Shot')": 3,
+        "('Very Long Shot', 'Moving Aerial Tilt Shot')": 2,
+        "('Medium Shot', nan)": 1
+    },
+    "('Tall', 'Low')": {
+        "('Close-up', 'Pedestal/Elevator Shot')": 5,
+        "('Very Long Shot', \"Bird's-eye Shot\")": 3,
+        "('Medium Shot', 'Fly-through Shot')": 2,
+        "('Very Long Shot', \"Moving bird's-eye Shot\")": 2,
+        "('Medium Shot', 'Pedestal/Elevator Shot')": 2,
+        "('Close-up', 'Fly-through Shot')": 1,
+        "('Very Long Shot', nan)": 1,
+        "('Medium Shot', \"Moving bird's-eye Shot\")": 1,
+        "('Medium Shot', \"Bird's-eye Shot\")": 1,
+        "('Medium Shot', 'Moving Aerial Tilt Shot')": 1,
+        "('Close-up', \"Bird's-eye Shot\")": 1
+    },
+    "('Tall', 'Medium')": {
+        "('Medium Shot', 'Moving Aerial Tilt Shot')": 8,
+        "('Medium Shot', 'Moving Aerial Pan Shot')": 5,
+        "('Medium Shot', 'Survey Shot')": 3,
+        "('Medium Shot', \"Bird's-eye Shot\")": 2,
+        "('Very Long Shot', \"Bird's-eye Shot\")": 1,
+        "('Medium Shot', nan)": 1
+    }
+}
